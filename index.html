@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customise your Kuromi</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Varela+Round&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Customise your Kuromi!</h1>
+    </header>
+
+    <!---Name form-->
+    <main>
+        <nav>
+            <div class="form">
+                <p>Give your Kuromi a name</p>
+                <form>
+                    <input type="text">
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+
+            <!---Main buttons-->
+            <div>
+                <p>Choose your main colour</p>
+                <ul>
+                    <li><button id="white-main" class="white"></button></li>
+                    <li><button id="black-main" class="black"></button></li>
+                    <li><button id="pink-main" class="pink"></button></li>
+                    <li><button id="red-main" class="red"></button></li>
+                    <li><button id="yellow-main" class="yellow"></button></li>
+                    <li><button id="blue-main" class="blue"></button></li>
+                    <li><button id="green-main" class="green"></button></li>
+                    <li><img src="images/random.svg" alt="Shuffle button" id="random-main"></li>
+                </ul>
+            </div>
+
+            <!---Detail buttons-->
+            <div>
+                <p>Choose your detail colour</p>
+                <ul>
+                    <li><button id="white-detail" class="white"></button></li>
+                    <li><button id="black-detail" class="black"></button></li>
+                    <li><button id="pink-detail" class="pink"></button></li>
+                    <li><button id="red-detail" class="red"></button></li>
+                    <li><button id="yellow-detail" class="yellow"></button></li>
+                    <li><button id="blue-detail" class="blue"></button></li>
+                    <li><button id="green-detail" class="green"></button></li>
+                    <li><img src="images/random.svg" alt="Shuffle button" id="random-detail"></li>
+                </ul>
+            </div>
+
+            <!---Face buttons-->
+            <div>
+                <p>Choose your face colour</p>
+                <ul>
+                    <li><button id="gray-face" class="gray"></button></li>
+                    <li><button id="black-face" class="black"></button></li>
+                    <li><button id="pink-face" class="pink"></button></li>
+                    <li><button id="red-face" class="red"></button></li>
+                    <li><button id="yellow-face" class="yellow"></button></li>
+                    <li><button id="blue-face" class="blue"></button></li>
+                    <li><button id="green-face" class="green"></button></li>
+                    <li><img src="images/random.svg" alt="Shuffle button" id="random-face"></li>
+                </ul>
+            </div>
+
+            <!---Accessory buttons-->
+            <div class="buttons-access">
+                <p>Choose your accessory</p>
+                <ul>
+                    <li><img src="images/button-none.svg" alt="A heart" id="none" class="accessory"></li>
+                    <li><img src="images/button-heart.svg" alt="A heart" id="heart" class="accessory"></li>
+                    <li><img src="images/button-cloud.svg" alt="A cloud" id="cloud" class="accessory"></li>
+                    <li><img src="images/button-star.svg" alt="A star" id="star" class="accessory"></li>
+                    <li><img src="images/button-cool.svg" alt="Sunglasses" id="sunglasses" class="accessory"></li>
+                    <li><img src="images/button-french.svg" alt="Flag of France" id="french" class="accessory"></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!---Kuromi-->
+        <div class="kuromi">
+            <img src="images/kuromi-base.svg" alt="Kuromi">
+            <img src="images/main-black.svg" alt="Main part" class="main">
+            <img src="images/details-pink.svg" alt="The details" class="detail">
+            <img src="images/face-black.svg" alt="The face" class="face">
+            <img src="images/none.svg" alt="A transparent image" class="accessory-active">
+        </div>
+    </main>
+
+    <footer>© Klaudia Dobrzelewska - 2022</footer>
+
+    <script src="/js/color.js"></script>
+</body>
+
+</html>

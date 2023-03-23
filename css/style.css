@@ -1,0 +1,125 @@
+body {
+    color: #1A1A1A;
+    font-family: 'Varela Round', sans-serif;
+    background-color: #DBDBDB;
+    margin: 0;
+    padding: 0em 2em;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: center;
+    background-color: #f7f7f7;
+    border-style: none;
+    border-radius: 2em;
+    margin: 2em 2em 0em 2em;
+}
+
+img {
+    width: 42em;
+    position: absolute;
+    margin-top: 0.5em;
+    margin-left: 5em;
+    display: inline-block;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin: 1em;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: 1.5em;
+    text-align: left;
+    margin-left: 1em;
+}
+
+footer {
+    font-size: 0.7em;
+    text-align: center;
+    margin: 2em;
+}
+
+/*FORM*/
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 1.7em;
+}
+
+/*FORM END*/
+
+/*BUTTONS*/
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    border: none;
+    padding: 1.5em;
+    border-radius: 2em;
+    margin: 1em;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+ul li img {
+    width: 3em;
+    margin: 0.5em;
+}
+
+.buttons-access ul li {
+    display: flex;
+    flex-direction: row;
+}
+
+img.accessory {
+    width: 5em;
+    position: relative;
+}
+
+.black {
+    background-color: #1A1A1A;
+}
+
+.pink {
+    background-color: #FB8FB9;
+}
+
+.red {
+    background-color: #721E1E;
+}
+
+.yellow {
+    background-color: #CCBA6E;
+}
+
+.white {
+    background-color: #BABABA;
+}
+
+.blue {
+    background-color: #45608C;
+}
+
+.green {
+    background-color: #297C3B;
+}
+
+.gray {
+    background-color: #666666;
+}
+
+/*BUTTON END*/
