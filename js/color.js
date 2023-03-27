@@ -19,10 +19,10 @@ var detail = document.querySelector(".detail");
 var face = document.querySelector(".face");
 
 // Arrays
-var mainColors = ["../images/main-white.svg", "../images/main-black.svg", "../images/main-pink.svg", "../images/main-red.svg", "../images/main-yellow.svg", "../images/main-blue.svg", "../images/main-green.svg"];
-var detailColors = ["../images/details-white.svg", "../images/details-black.svg", "../images/details-pink.svg", "../images/details-red.svg", "../images/details-yellow.svg", "../images/details-blue.svg", "../images/details-green.svg"];
-var faceColors = ["../images/face-gray.svg", "../images/face-black.svg", "../images/face-pink.svg", "../images/face-red.svg", "../images/face-yellow.svg", "../images/face-blue.svg", "../images/face-green.svg"];
-var accessoryArray = ["../images/none.svg", "../images/heart.svg", "../images/cloud.svg", "../images/star.svg", "../images/sunglasses.svg", "../images/french.svg"];
+var mainColors = ["./images/main-white.svg", "./images/main-black.svg", "./images/main-pink.svg", "./images/main-red.svg", "./images/main-yellow.svg", "./images/main-blue.svg", "./images/main-green.svg"];
+var detailColors = ["./images/details-white.svg", "./images/details-black.svg", "./images/details-pink.svg", "./images/details-red.svg", "./images/details-yellow.svg", "./images/details-blue.svg", "./images/details-green.svg"];
+var faceColors = ["./images/face-gray.svg", "./images/face-black.svg", "./images/face-pink.svg", "./images/face-red.svg", "./images/face-yellow.svg", "./images/face-blue.svg", "./images/face-green.svg"];
+var accessoryArray = ["./images/none.svg", "./images/heart.svg", "./images/cloud.svg", "./images/star.svg", "./images/sunglasses.svg", "./images/french.svg"];
 
 // Main
 var mainWhite = document.querySelector("#white-main");
